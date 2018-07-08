@@ -1,0 +1,186 @@
+body {
+    font-family:'Montserrat', 'helvetica', 'sans-serif';
+    margin: 0;
+}
+.is-invalid {
+    border-color: red;
+    color: red
+}
+.nav-bar-container {
+    width: 1024px;
+    margin: 0px auto;
+    background-color: #5d4037;
+    color: white;
+    padding: 20px 0px;
+    position: relative;
+}
+.nav-bar {
+    position: relative;
+}
+.nav-bar a {
+    padding: 14px 21px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav-bar a:hover {
+    background-color: #3e2723;
+    color: white;
+    border-radius: 6px;
+}
+.nav-bar a .active {
+    background-color: #3e2723;
+    color: white;
+    border-radius: 6px;
+}
+
+.nav-bar .right {
+    position: absolute;
+    right: 7px;
+    top: 0px;
+    bottom: 0px;
+    
+/*
+    display: inline-block;
+    float: right;
+    top: 10px;
+*/
+}
+
+.title {
+    padding: 7px 21px;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.username {
+    padding: 7px 21px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.body-container {
+    width: 1024px;
+    margin: 0px auto;
+    background-color: #efebe9;
+    color: #3e2723;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.body {
+    padding: 0px 20px;
+    position: relative;
+}
+
+.footer {
+    width: 1024px;
+    margin: 0px auto;
+    background-color: #5d4037;
+    color: white;
+    padding: 20px 0px 10px;
+    position: relative;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.text-primary {
+    color: #3e2723
+}
+
+.text-secondary {
+    color: #5d4037;
+}
+.white-text {
+    color: white;
+}
+
+.link-btn {
+    text-decoration: none;
+    padding: 7px 14px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: capitalize;
+    
+}
+
+.btn {
+    text-decoration: none;
+    padding: 7px 14px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.btn:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    background-color: #eee;
+}
+
+.add-post-btn {
+    float: right;
+}
+.post {
+    position: relative;
+}
+.post h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.post span {
+    font-size: 11px;
+    font-weight: 400;
+}
+.post p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    font-size: 25px;
+}
+
+.post-show h1 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.post-show h1 span {
+    font-size: 13px;
+    font-weight: 400;
+}
+.post-show p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.post-add p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input[type=email], input[type=text], input[type=password], textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 4px;
+    box-shadow: none;
+}
